@@ -5,7 +5,7 @@ var ReactRouter = require('react-router');
 var Redux = require('redux');
 var Provider = require('react-redux').Provider;
 
-funcion reducer(state) {return state;}
+function reducer(state) {return state;}
 
 router.get('*', function(request, response) {
 	var props = {title: 'Universal React'};
